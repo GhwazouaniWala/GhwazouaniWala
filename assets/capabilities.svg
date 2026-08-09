@@ -1,0 +1,129 @@
+<svg width="1200" height="460" viewBox="0 0 1200 460" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="cbg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#050B1A"/>
+      <stop offset="100%" stop-color="#0C1E3E"/>
+    </linearGradient>
+    <radialGradient id="cglow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#2563EB" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#2563EB" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="cblur" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="24"/></filter>
+    <filter id="cnode" x="-70%" y="-70%" width="240%" height="240%">
+      <feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <pattern id="cgrid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1E3A8A" stroke-width="0.5" opacity="0.28"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="460" fill="url(#cbg)"/>
+  <rect width="1200" height="460" fill="url(#cgrid)"/>
+  <circle cx="600" cy="230" r="300" fill="url(#cglow)" filter="url(#cblur)">
+    <animate attributeName="opacity" values="0.4;0.8;0.4" dur="7s" repeatCount="indefinite"/>
+  </circle>
+
+  <text x="600" y="44" text-anchor="middle" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="13" font-weight="600" fill="#38BDF8" letter-spacing="5">C A P A B I L I T Y &#160; M A P</text>
+
+  <!-- edges from core -->
+  <g stroke="#38BDF8" stroke-width="1" opacity="0.3">
+    <line x1="600" y1="230" x2="230" y2="130"><animate attributeName="opacity" values="0.15;0.5;0.15" dur="4s" repeatCount="indefinite"/></line>
+    <line x1="600" y1="230" x2="200" y2="250"><animate attributeName="opacity" values="0.5;0.15;0.5" dur="4.6s" repeatCount="indefinite"/></line>
+    <line x1="600" y1="230" x2="255" y2="368"><animate attributeName="opacity" values="0.2;0.55;0.2" dur="5.2s" repeatCount="indefinite"/></line>
+    <line x1="600" y1="230" x2="600" y2="112"><animate attributeName="opacity" values="0.45;0.15;0.45" dur="4.2s" repeatCount="indefinite"/></line>
+    <line x1="600" y1="230" x2="600" y2="378"><animate attributeName="opacity" values="0.2;0.5;0.2" dur="5s" repeatCount="indefinite"/></line>
+    <line x1="600" y1="230" x2="970" y2="130"><animate attributeName="opacity" values="0.15;0.5;0.15" dur="4.4s" repeatCount="indefinite"/></line>
+    <line x1="600" y1="230" x2="1000" y2="250"><animate attributeName="opacity" values="0.5;0.2;0.5" dur="4.8s" repeatCount="indefinite"/></line>
+    <line x1="600" y1="230" x2="945" y2="368"><animate attributeName="opacity" values="0.25;0.55;0.25" dur="5.4s" repeatCount="indefinite"/></line>
+  </g>
+
+  <!-- travelling pulses -->
+  <circle r="3" fill="#BFE3FF" filter="url(#cnode)">
+    <animateMotion path="M 600 230 L 230 130" dur="2.8s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;1;0" dur="2.8s" repeatCount="indefinite"/>
+  </circle>
+  <circle r="3" fill="#BFE3FF" filter="url(#cnode)">
+    <animateMotion path="M 600 230 L 970 130" dur="3.2s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;1;0" dur="3.2s" repeatCount="indefinite"/>
+  </circle>
+  <circle r="3" fill="#BFE3FF" filter="url(#cnode)">
+    <animateMotion path="M 600 230 L 600 378" dur="2.4s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;1;0" dur="2.4s" repeatCount="indefinite"/>
+  </circle>
+  <circle r="3" fill="#BFE3FF" filter="url(#cnode)">
+    <animateMotion path="M 600 230 L 255 368" dur="3.6s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;1;0" dur="3.6s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- core -->
+  <circle cx="600" cy="230" r="52" fill="#0B2246" stroke="#38BDF8" stroke-width="2">
+    <animate attributeName="r" values="52;56;52" dur="3.4s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="600" cy="230" r="66" fill="none" stroke="#2563EB" stroke-width="1" opacity="0.55">
+    <animate attributeName="r" values="60;82;60" dur="3.4s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.6;0;0.6" dur="3.4s" repeatCount="indefinite"/>
+  </circle>
+  <text x="600" y="226" text-anchor="middle" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="15" font-weight="700" fill="#FFFFFF">AI</text>
+  <text x="600" y="245" text-anchor="middle" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="11" fill="#94A3B8">ENGINEER</text>
+
+  <!-- capability nodes -->
+  <g font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="12.5" font-weight="600" text-anchor="middle">
+
+    <g filter="url(#cnode)">
+      <rect x="122" y="112" width="216" height="36" rx="18" fill="#0A1A38" stroke="#38BDF8" stroke-width="1.2">
+        <animate attributeName="stroke-opacity" values="0.35;1;0.35" dur="3s" repeatCount="indefinite"/>
+      </rect>
+      <text x="230" y="135" fill="#E0F2FE">LLM Fine-Tuning</text>
+    </g>
+
+    <g filter="url(#cnode)">
+      <rect x="92" y="232" width="216" height="36" rx="18" fill="#0A1A38" stroke="#38BDF8" stroke-width="1.2">
+        <animate attributeName="stroke-opacity" values="0.35;1;0.35" dur="3s" begin="0.3s" repeatCount="indefinite"/>
+      </rect>
+      <text x="200" y="255" fill="#E0F2FE">RAG &#183; Retrieval</text>
+    </g>
+
+    <g filter="url(#cnode)">
+      <rect x="147" y="350" width="216" height="36" rx="18" fill="#0A1A38" stroke="#38BDF8" stroke-width="1.2">
+        <animate attributeName="stroke-opacity" values="0.35;1;0.35" dur="3s" begin="0.6s" repeatCount="indefinite"/>
+      </rect>
+      <text x="255" y="373" fill="#E0F2FE">Agentic AI</text>
+    </g>
+
+    <g filter="url(#cnode)">
+      <rect x="492" y="94" width="216" height="36" rx="18" fill="#0A1A38" stroke="#2563EB" stroke-width="1.2">
+        <animate attributeName="stroke-opacity" values="0.35;1;0.35" dur="3s" begin="0.9s" repeatCount="indefinite"/>
+      </rect>
+      <text x="600" y="117" fill="#CFE4FF">Multimodal Fusion</text>
+    </g>
+
+    <g filter="url(#cnode)">
+      <rect x="492" y="360" width="216" height="36" rx="18" fill="#0A1A38" stroke="#2563EB" stroke-width="1.2">
+        <animate attributeName="stroke-opacity" values="0.35;1;0.35" dur="3s" begin="1.2s" repeatCount="indefinite"/>
+      </rect>
+      <text x="600" y="383" fill="#CFE4FF">Workflow Automation</text>
+    </g>
+
+    <g filter="url(#cnode)">
+      <rect x="862" y="112" width="216" height="36" rx="18" fill="#0A1A38" stroke="#38BDF8" stroke-width="1.2">
+        <animate attributeName="stroke-opacity" values="0.35;1;0.35" dur="3s" begin="1.5s" repeatCount="indefinite"/>
+      </rect>
+      <text x="970" y="135" fill="#E0F2FE">Computer Vision</text>
+    </g>
+
+    <g filter="url(#cnode)">
+      <rect x="892" y="232" width="216" height="36" rx="18" fill="#0A1A38" stroke="#38BDF8" stroke-width="1.2">
+        <animate attributeName="stroke-opacity" values="0.35;1;0.35" dur="3s" begin="1.8s" repeatCount="indefinite"/>
+      </rect>
+      <text x="1000" y="255" fill="#E0F2FE">Speech &#183; Audio AI</text>
+    </g>
+
+    <g filter="url(#cnode)">
+      <rect x="837" y="350" width="216" height="36" rx="18" fill="#0A1A38" stroke="#38BDF8" stroke-width="1.2">
+        <animate attributeName="stroke-opacity" values="0.35;1;0.35" dur="3s" begin="2.1s" repeatCount="indefinite"/>
+      </rect>
+      <text x="945" y="373" fill="#E0F2FE">MLOps &#183; Serving</text>
+    </g>
+
+  </g>
+</svg>

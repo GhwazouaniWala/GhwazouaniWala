@@ -1,0 +1,102 @@
+<svg width="1200" height="260" viewBox="0 0 1200 260" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="pbg" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#050B1A"/>
+      <stop offset="50%" stop-color="#0A192F"/>
+      <stop offset="100%" stop-color="#0C1E3E"/>
+    </linearGradient>
+    <filter id="pglow" x="-70%" y="-70%" width="240%" height="240%">
+      <feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <pattern id="pgrid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1E3A8A" stroke-width="0.5" opacity="0.25"/>
+    </pattern>
+    <marker id="arw" markerWidth="9" markerHeight="9" refX="7" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L7,3 z" fill="#38BDF8"/>
+    </marker>
+  </defs>
+
+  <rect width="1200" height="260" fill="url(#pbg)"/>
+  <rect width="1200" height="260" fill="url(#pgrid)"/>
+
+  <text x="600" y="38" text-anchor="middle" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="13" font-weight="600" fill="#38BDF8" letter-spacing="5">H O W &#160; I &#160; B U I L D</text>
+
+  <!-- connectors -->
+  <g stroke="#38BDF8" stroke-width="1.6" opacity="0.65" marker-end="url(#arw)">
+    <line x1="212" y1="140" x2="248" y2="140"/>
+    <line x1="404" y1="140" x2="440" y2="140"/>
+    <line x1="596" y1="140" x2="632" y2="140"/>
+    <line x1="788" y1="140" x2="824" y2="140"/>
+    <line x1="980" y1="140" x2="1016" y2="140"/>
+  </g>
+
+  <!-- flowing data pulse -->
+  <circle r="4" fill="#7DD3FC" filter="url(#pglow)">
+    <animateMotion path="M 120 140 H 1112" dur="5s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.05;0.9;1" dur="5s" repeatCount="indefinite"/>
+  </circle>
+  <circle r="3" fill="#38BDF8" filter="url(#pglow)">
+    <animateMotion path="M 120 140 H 1112" dur="5s" begin="1.6s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.05;0.9;1" dur="5s" begin="1.6s" repeatCount="indefinite"/>
+  </circle>
+  <circle r="3" fill="#2563EB" filter="url(#pglow)">
+    <animateMotion path="M 120 140 H 1112" dur="5s" begin="3.2s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.05;0.9;1" dur="5s" begin="3.2s" repeatCount="indefinite"/>
+  </circle>
+
+  <g font-family="'Segoe UI',Helvetica,Arial,sans-serif" text-anchor="middle">
+
+    <g>
+      <rect x="28" y="108" width="184" height="64" rx="12" fill="#0A1A38" stroke="#38BDF8" stroke-width="1.3">
+        <animate attributeName="stroke-opacity" values="0.4;1;0.4" dur="3s" repeatCount="indefinite"/>
+      </rect>
+      <text x="120" y="134" font-size="14" font-weight="700" fill="#E0F2FE">Understand</text>
+      <text x="120" y="154" font-size="11" fill="#94A3B8">the actual problem</text>
+    </g>
+
+    <g>
+      <rect x="220" y="108" width="184" height="64" rx="12" fill="#0A1A38" stroke="#38BDF8" stroke-width="1.3">
+        <animate attributeName="stroke-opacity" values="0.4;1;0.4" dur="3s" begin="0.4s" repeatCount="indefinite"/>
+      </rect>
+      <text x="312" y="134" font-size="14" font-weight="700" fill="#E0F2FE">Model</text>
+      <text x="312" y="154" font-size="11" fill="#94A3B8">fine-tune or retrieve</text>
+    </g>
+
+    <g>
+      <rect x="412" y="108" width="184" height="64" rx="12" fill="#0A1A38" stroke="#38BDF8" stroke-width="1.3">
+        <animate attributeName="stroke-opacity" values="0.4;1;0.4" dur="3s" begin="0.8s" repeatCount="indefinite"/>
+      </rect>
+      <text x="504" y="134" font-size="14" font-weight="700" fill="#E0F2FE">Evaluate</text>
+      <text x="504" y="154" font-size="11" fill="#94A3B8">honestly, before claiming</text>
+    </g>
+
+    <g>
+      <rect x="604" y="108" width="184" height="64" rx="12" fill="#0A1A38" stroke="#2563EB" stroke-width="1.3">
+        <animate attributeName="stroke-opacity" values="0.4;1;0.4" dur="3s" begin="1.2s" repeatCount="indefinite"/>
+      </rect>
+      <text x="696" y="134" font-size="14" font-weight="700" fill="#CFE4FF">Serve</text>
+      <text x="696" y="154" font-size="11" fill="#94A3B8">fast, streaming, live</text>
+    </g>
+
+    <g>
+      <rect x="796" y="108" width="184" height="64" rx="12" fill="#0A1A38" stroke="#2563EB" stroke-width="1.3">
+        <animate attributeName="stroke-opacity" values="0.4;1;0.4" dur="3s" begin="1.6s" repeatCount="indefinite"/>
+      </rect>
+      <text x="888" y="134" font-size="14" font-weight="700" fill="#CFE4FF">Monitor</text>
+      <text x="888" y="154" font-size="11" fill="#94A3B8">and fall back gracefully</text>
+    </g>
+
+    <g>
+      <rect x="988" y="108" width="184" height="64" rx="12" fill="#0B2246" stroke="#22D3A6" stroke-width="1.3">
+        <animate attributeName="stroke-opacity" values="0.4;1;0.4" dur="3s" begin="2s" repeatCount="indefinite"/>
+      </rect>
+      <text x="1080" y="134" font-size="14" font-weight="700" fill="#D7FBEF">Ship</text>
+      <text x="1080" y="154" font-size="11" fill="#94A3B8">a product, not a notebook</text>
+    </g>
+
+  </g>
+
+  <text x="600" y="222" text-anchor="middle" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" fill="#64748B" font-style="italic">
+    every stage has a fallback &#8212; a failing model degrades the output, it doesn&#8217;t take the product down
+  </text>
+</svg>
