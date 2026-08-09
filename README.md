@@ -38,6 +38,8 @@ specialise:  [ LLMs, RAG, multimodal, agentic systems, computer vision, MLOps ]
 publishes:   huggingface.co/Ghazouaniwala
 ```
 
+> *"A model that only works in the notebook hasn't solved anything. The engineering is everything between the weights and the user."*
+
 **Track record** — Two AI-focused internships at **Wevioo**, the second shipping a production multimodal system. Two fine-tuned speech models published on **Hugging Face**. **Project lead** of a six-person multi-agent financial platform delivered with industry partner **VALUE**. Freelance AI engineer on **Upwork**, taking client RAG and agent systems from scoping through deployment and handover.
 
 ### AI capabilities I've worked in
@@ -287,13 +289,87 @@ Handwritten Tunisian legal forms → structured, searchable client records, **en
 
 <div align="center">
 
-| Certification | Issuer | What it covered | Date | |
-|---|---|---|:--:|:--:|
-| **LLM Engineering in Practice** | 365 Data Science | Building and deploying an LLM application end to end — prompt design, the OpenAI API, and shipping it behind a Streamlit interface rather than leaving it in a notebook. | Mar 2026 | [![cert](https://img.shields.io/badge/verify-2563EB?style=flat-square)](https://learn.365datascience.com/c/7075d10c57) |
-| **Fundamentals of Deep Learning** | NVIDIA Deep Learning Institute | Training neural networks on GPU from first principles — backpropagation, CNN architectures, data augmentation, transfer learning, and the mechanics of what makes training actually converge. | Jan 2026 | [![cert](https://img.shields.io/badge/verify-76B900?style=flat-square)](https://learn.nvidia.com/certificates) |
-| **Convolutional Neural Networks with TensorFlow** | 365 Data Science | CNN architecture design and image classification in TensorFlow — the vision groundwork underneath the EfficientNet-B0 classifiers running in Solace and NeuraShop. | Nov 2025 | [![cert](https://img.shields.io/badge/verify-1E3A8A?style=flat-square)](https://learn.365datascience.com/c/b7907b56fe) |
-| **Building AI Agents with Multimodal Models** | NVIDIA Deep Learning Institute | Composing vision-language models into agents that plan and act across modalities — directly relevant to the multi-channel fusion work in Solace. | Jan 2025 | [![cert](https://img.shields.io/badge/verify-76B900?style=flat-square)](https://learn.nvidia.com/certificates?id=JOcvsCL5R_COA2qjS-_V1Q) |
-| **Generative AI with Diffusion Models** | NVIDIA Deep Learning Institute | The denoising diffusion process from noise scheduling to sampling — how modern image and audio generation actually works, rather than just calling an API for it. | Jan 2025 | [![cert](https://img.shields.io/badge/verify-76B900?style=flat-square)](https://learn.nvidia.com/certificates?id=-5GEyfimSQme_gwlTRSCsw) |
+<table>
+<tr>
+<td width="55%" valign="middle">
+
+### LLM Engineering in Practice
+`365 Data Science` · **Mar 2026**
+
+Building and deploying an LLM application end to end — prompt design, the OpenAI API, and shipping it behind a real interface rather than leaving it in a notebook.
+
+</td>
+<td width="45%" align="center" valign="middle">
+
+<a href="https://learn.365datascience.com/c/7075d10c57"><img src="https://img.shields.io/badge/🔗_VIEW_CREDENTIAL-2563EB?style=for-the-badge&labelColor=0A192F" height="42"/></a>
+
+</td>
+</tr>
+
+<tr>
+<td width="55%" valign="middle">
+
+### Fundamentals of Deep Learning
+`NVIDIA Deep Learning Institute` · **Jan 2026**
+
+Training neural networks on GPU from first principles — backpropagation, CNN architectures, augmentation, transfer learning, and what actually makes training converge.
+
+</td>
+<td width="45%" align="center" valign="middle">
+
+<a href="https://learn.nvidia.com/certificates"><img src="https://img.shields.io/badge/🔗_VIEW_CREDENTIAL-76B900?style=for-the-badge&labelColor=0A192F" height="42"/></a>
+
+</td>
+</tr>
+
+<tr>
+<td width="55%" valign="middle">
+
+### Building AI Agents with Multimodal Models
+`NVIDIA Deep Learning Institute` · **Jan 2025**
+
+Composing vision-language models into agents that plan and act across modalities — the foundation under the multi-channel fusion work in my own systems.
+
+</td>
+<td width="45%" align="center" valign="middle">
+
+<a href="https://learn.nvidia.com/certificates?id=JOcvsCL5R_COA2qjS-_V1Q"><img src="https://img.shields.io/badge/🔗_VIEW_CREDENTIAL-76B900?style=for-the-badge&labelColor=0A192F" height="42"/></a>
+
+</td>
+</tr>
+
+<tr>
+<td width="55%" valign="middle">
+
+### Generative AI with Diffusion Models
+`NVIDIA Deep Learning Institute` · **Jan 2025**
+
+The denoising diffusion process from noise scheduling through sampling — how modern image and audio generation works underneath, not just how to call it.
+
+</td>
+<td width="45%" align="center" valign="middle">
+
+<a href="https://learn.nvidia.com/certificates?id=-5GEyfimSQme_gwlTRSCsw"><img src="https://img.shields.io/badge/🔗_VIEW_CREDENTIAL-76B900?style=for-the-badge&labelColor=0A192F" height="42"/></a>
+
+</td>
+</tr>
+
+<tr>
+<td width="55%" valign="middle">
+
+### Convolutional Neural Networks with TensorFlow
+`365 Data Science` · **Nov 2025**
+
+CNN architecture design and image classification — the vision groundwork underneath the classifiers running in my production systems.
+
+</td>
+<td width="45%" align="center" valign="middle">
+
+<a href="https://learn.365datascience.com/c/b7907b56fe"><img src="https://img.shields.io/badge/🔗_VIEW_CREDENTIAL-1E3A8A?style=for-the-badge&labelColor=0A192F" height="42"/></a>
+
+</td>
+</tr>
+</table>
 
 </div>
 
@@ -328,6 +404,47 @@ Currently studying, not yet shipped — listed separately from my project work o
 <div align="center">
 
 <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=15&duration=2600&pause=800&color=7DD3FC&center=true&vCenter=true&width=680&lines=Reading%3A+eval+harnesses+for+multi-step+agents;Studying%3A+cloud+GPU+serving+and+autoscaling;Building%3A+a+low-resource+language+fine-tune;Next%3A+quantised+inference+on+managed+infrastructure" alt="Currently"/>
+
+</div>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0A192F,50:2563EB,100:38BDF8&height=3&section=header"/>
+
+## `>` the trajectory
+
+```
+2023  ├─  Foundations — algorithms, databases, software engineering
+      │
+2024  ├─  Machine learning · deep learning · computer vision
+      │
+2025  ├─  First engineering internship — shipped a production application solo
+      │   Freelance AI work begins: client RAG systems and agents
+      │
+2026  ├─  Project lead, six-person multi-agent platform with an industry partner
+      │   Second internship — multimodal AI, two models published
+      │
+2027  └─  Final-year internship  →  AI Engineer
+```
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0A192F,50:2563EB,100:38BDF8&height=3&section=header"/>
+
+## `>` github
+
+<div align="center">
+
+<img src="https://github-readme-stats.vercel.app/api?username=Ghazouaniwalae&show_icons=true&hide_border=true&bg_color=0A192F&title_color=38BDF8&text_color=94A3B8&icon_color=2563EB&ring_color=38BDF8" height="165"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ghazouaniwalae&layout=compact&hide_border=true&bg_color=0A192F&title_color=38BDF8&text_color=94A3B8" height="165"/>
+
+<br/>
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=Ghazouaniwalae&hide_border=true&background=0A192F&stroke=1E3A8A&ring=38BDF8&fire=2563EB&currStreakLabel=38BDF8&sideLabels=94A3B8&dates=94A3B8&currStreakNum=FFFFFF&sideNums=FFFFFF" height="165"/>
+
+<br/>
+
+<img src="https://github-profile-trophy.vercel.app/?username=Ghazouaniwalae&theme=algolia&no-frame=true&no-bg=true&column=7&margin-w=8"/>
+
+<br/>
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Ghazouaniwalae&bg_color=0A192F&color=94A3B8&line=38BDF8&point=2563EB&area=true&hide_border=true"/>
 
 </div>
 
