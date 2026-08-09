@@ -39,7 +39,7 @@ publishes:   huggingface.co/Ghazouaniwala
 learning:    cloud AI infrastructure · LLMOps · agent evaluation
 ```
 
-**Track record** — Two AI-focused internships at **Wevioo**, the second shipping a production multimodal system. Two fine-tuned models published on **Hugging Face**, including the first Tunisian Derja TTS voice I could find anywhere. **Project lead** of a six-person multi-agent financial platform delivered with industry partner **VALUE**. Freelance AI engineer on **Upwork**, taking client RAG and agent systems from scoping through deployment and handover.
+**Track record** — Two AI-focused internships at **Wevioo**, the second shipping a production multimodal system. Two fine-tuned speech models published on **Hugging Face**. **Project lead** of a six-person multi-agent financial platform delivered with industry partner **VALUE**. Freelance AI engineer on **Upwork**, taking client RAG and agent systems from scoping through deployment and handover.
 
 <div align="center">
 
@@ -50,7 +50,7 @@ learning:    cloud AI infrastructure · LLMOps · agent evaluation
 <img src="https://img.shields.io/badge/🤖_Multi--agent-orchestrated,_with_a_conviction_gate-38BDF8?style=flat-square"/>
 <br/>
 <img src="https://img.shields.io/badge/🔒_Offline--first-no_data_leaves_the_machine-0A192F?style=flat-square"/>
-<img src="https://img.shields.io/badge/🌍_Multilingual-EN_·_FR_·_Tunisian_Derja-2563EB?style=flat-square"/>
+<img src="https://img.shields.io/badge/🌍_Multilingual-three_languages,_per--turn_switching-2563EB?style=flat-square"/>
 <img src="https://img.shields.io/badge/📊_Evaluated-speaker--independent,_not_leaky-1E3A8A?style=flat-square"/>
 
 </div>
@@ -187,7 +187,7 @@ learning:    cloud AI infrastructure · LLMOps · agent evaluation
 
 ### 🧠 [Solace](https://github.com/Ghazouaniwalae/solace) — real-time multimodal AI coach
 
-> Two emotion classifiers run on you *concurrently* — facial expression (EfficientNet-B0, ONNX) and vocal tone (fine-tuned wav2vec2-XLSR-53) — and the **disagreement between channels is surfaced, not averaged away**, because a user whose wording reads `neutral` while their voice reads `fearful` is the single most useful thing the system can notice. Answers stream back over full-duplex WebSocket, grounded in RAG across **603 clinical documents** and cited by named technique. Speaks EN/FR and a custom Derja TTS voice.
+> Two emotion classifiers run on you *concurrently* — facial expression (EfficientNet-B0, ONNX) and vocal tone (fine-tuned wav2vec2-XLSR-53) — and the **disagreement between channels is surfaced, not averaged away**, because a user whose wording reads `neutral` while their voice reads `fearful` is the single most useful thing the system can notice. Answers stream back over full-duplex WebSocket, grounded in RAG across **603 clinical documents** and cited by named technique. Follows your language per turn — switch mid-session and the next reply comes back in the new one, voice included.
 
 <table>
 <tr>
@@ -267,8 +267,6 @@ Handwritten Tunisian legal forms → structured, searchable client records, **en
 2026 · Jun–Aug   AI Engineering Intern — Wevioo
                  Solace: full-duplex voice, concurrent face + voice emotion
                  classifiers, RAG over 603 clinical docs. 2 models to HF.
-                 End-to-end voice response time cut 4.1× (speech-end to first
-                 audio out) via streaming + parallel classifier execution.
 
 2026 · Feb–Jun   Project Lead — FX AlphaLab (ESPRIT × VALUE)
                  6 engineers, 5 months. Owned the macro agent end to end.
@@ -303,12 +301,13 @@ Handwritten Tunisian legal forms → structured, searchable client records, **en
 
 ## `>` how I work
 
-| | |
-|---|---|
-| **Honest metrics** | Speaker-independent evaluation over the leaky random split that inflates every number you've seen. Provenance labels on every reported figure — `Measured` vs `Model estimate` vs `NOT MEASURED`. The system reports what it could not observe rather than inventing a number. |
-| **Degrade, don't die** | Confidence gates with deterministic fallbacks. RAG that drops to keyword scoring when the vector stack is down. Firecrawl failure downgraded to a warning, not a crash. The report always ships. |
-| **Latency is a feature** | Solace's end-to-end response time dropped 4.1× — from a user finishing speaking to hearing the first word back — by restructuring inference to stream and run classifiers in parallel, not by buying a bigger GPU. Elsewhere: parallel scrapers under one `gather`, so wall time is `max()` rather than the sum. |
-| **Known limitations, written down** | Every repo carries an honest inventory of what's broken, what's mocked, and what's aspirational. Engineering is what you built *and* what you know you didn't. |
+**I build things that stay up.** Every system I ship has a fallback path, so a failing model or a dead API degrades the output instead of taking the product down.
+
+**I don't inflate results.** Reported numbers say how they were measured, and the system marks what it couldn't observe rather than guessing a value.
+
+**I write down what's broken.** Every repo lists its own known limitations. Knowing where a system falls short is part of having built it.
+
+**I finish things.** Each project below is a working application with a real interface — not a model in a notebook.
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0A192F,50:2563EB,100:38BDF8&height=3&section=header"/>
 
