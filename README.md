@@ -207,8 +207,8 @@ publishes:   huggingface.co/Ghazouaniwala
 
 <table>
 <tr>
-<td width="50%"><img src="assets/solace-voice-mode.png" alt="Voice mode"/><br/><sub><b>Voice mode</b> — orb driven by live FFT of the audio stream</sub></td>
-<td width="50%"><img src="assets/solace-report.png" alt="Session report"/><br/><sub><b>Session report</b> — every metric labelled <code>Measured</code> vs <code>Model estimate</code></sub></td>
+<td width="50%"><img src="https://raw.githubusercontent.com/GhwazouaniWala/solace/main/docs/screenshots/voice-mode.png" alt="Voice mode"/><br/><sub><b>Voice mode</b> — orb driven by live FFT of the audio stream</sub></td>
+<td width="50%"><img src="https://raw.githubusercontent.com/GhwazouaniWala/solace/main/docs/screenshots/report.png" alt="Session report"/><br/><sub><b>Session report</b> — every metric labelled <code>Measured</code> vs <code>Model estimate</code></sub></td>
 </tr>
 </table>
 
@@ -222,8 +222,8 @@ publishes:   huggingface.co/Ghazouaniwala
 
 <table>
 <tr>
-<td width="50%"><img src="assets/fx-alphalabs-signals.jpg" alt="Signal analysis"/><br/><sub><b>Signals</b> — per-analyst reasoning, conviction, risk parameters</sub></td>
-<td width="50%"><img src="assets/fx-alphalabs-performance.jpg" alt="Performance dashboard"/><br/><sub><b>Backtesting</b> — win rate, profit factor, drawdown, Sharpe</sub></td>
+<td width="50%"><img src="https://raw.githubusercontent.com/GhwazouaniWala/fx-alphalabs/main/screenshots/signals.jpg" alt="Signal analysis"/><br/><sub><b>Signals</b> — per-analyst reasoning, conviction, risk parameters</sub></td>
+<td width="50%"><img src="https://raw.githubusercontent.com/GhwazouaniWala/fx-alphalabs/main/screenshots/performance.jpg" alt="Performance dashboard"/><br/><sub><b>Backtesting</b> — win rate, profit factor, drawdown, Sharpe</sub></td>
 </tr>
 </table>
 
@@ -237,8 +237,8 @@ publishes:   huggingface.co/Ghazouaniwala
 
 <table>
 <tr>
-<td width="50%"><img src="assets/critiq-report-radar-dark.png" alt="Dimension radar"/><br/><sub><b>14-dimension radar</b> — real run against stripe.com, 88/100</sub></td>
-<td width="50%"><img src="assets/critiq-report-top-fixes-dark.png" alt="Top fixes"/><br/><sub><b>Top fixes</b> — ranked by weight × deficit, each with DOM evidence</sub></td>
+<td width="50%"><img src="https://raw.githubusercontent.com/GhwazouaniWala/critiq/master/docs/screenshots/report-radar-dark.png" alt="Dimension radar"/><br/><sub><b>14-dimension radar</b> — real run against stripe.com, 88/100</sub></td>
+<td width="50%"><img src="https://raw.githubusercontent.com/GhwazouaniWala/critiq/master/docs/screenshots/report-top-fixes-dark.png" alt="Top fixes"/><br/><sub><b>Top fixes</b> — ranked by weight × deficit, each with DOM evidence</sub></td>
 </tr>
 </table>
 
@@ -252,6 +252,8 @@ publishes:   huggingface.co/Ghazouaniwala
 
 ### 🛒 [NeuraShop](https://github.com/GhwazouaniWala/neurashop)
 **Accessible AI marketplace**
+
+<img src="https://raw.githubusercontent.com/GhwazouaniWala/neurashop/main/docs/screenshots/05-dashboard.png" alt="NeuraShop insights dashboard"/>
 
 Six deep-learning modules fire at the moment of upload so no seller fills in a form: auto-categorisation (**97.4% F1**, 14 classes — my module), WCAG-validated alt-text via BLIP so screen-reader users aren't locked out, a photo-quality gate with CNN enhancer fallback, aspect-based review sentiment, visual recommendations, and a RAG shopping assistant.
 
