@@ -29,24 +29,29 @@
 
 ## `>` whoami
 
-Final-year **Data Science engineering student at ESPRIT**, building AI systems end to end — from the fine-tune to the monitored, deployed, latency-budgeted application. Not notebooks that worked once.
+I'm **Wala Eddine Ghazouani** — a final-year Data Science engineering student at **ESPRIT**, building AI systems end to end: from the fine-tune, through the retrieval layer and the serving path, to a deployed application with a latency budget and monitoring on it. Not notebooks that worked once.
 
 ```yaml
+name:        Wala Eddine Ghazouani
 role:        AI / ML Engineer
 specialise:  [ LLMs, RAG, multimodal, agentic systems, computer vision, MLOps ]
-shipped:     [ 2 Wevioo internships, 2 HF models, 6-person platform as lead ]
 publishes:   huggingface.co/Ghazouaniwala
-currently:   agentic orchestration · evals · inference optimisation
+learning:    cloud AI infrastructure · LLMOps · agent evaluation
 ```
 
-**Track record** — Two AI-focused internships at **Wevioo**. Two fine-tuned models published on **Hugging Face**. **Project lead** of a six-person multi-agent financial platform delivered with industry partner VALUE. Freelance AI engineer on **Upwork** shipping RAG chatbots and agentic workflows for international clients.
+**Track record** — Two AI-focused internships at **Wevioo**, the second shipping a production multimodal system. Two fine-tuned models published on **Hugging Face**, including the first Tunisian Derja TTS voice I could find anywhere. **Project lead** of a six-person multi-agent financial platform delivered with industry partner **VALUE**. Freelance AI engineer on **Upwork**, taking client RAG and agent systems from scoping through deployment and handover.
 
 <div align="center">
 
-| | | | |
-|:--:|:--:|:--:|:--:|
-| **2** | **2** | **6** | **4.1×** |
-| HF models published | AI internships | engineers led | latency reduction |
+**Systems I've actually built and shipped**
+
+<img src="https://img.shields.io/badge/⚡_Real--time-full--duplex_voice_over_WebSocket-2563EB?style=flat-square"/>
+<img src="https://img.shields.io/badge/👁_Multimodal-face_+_voice_+_text_fusion-1E3A8A?style=flat-square"/>
+<img src="https://img.shields.io/badge/🤖_Multi--agent-orchestrated,_with_a_conviction_gate-38BDF8?style=flat-square"/>
+<br/>
+<img src="https://img.shields.io/badge/🔒_Offline--first-no_data_leaves_the_machine-0A192F?style=flat-square"/>
+<img src="https://img.shields.io/badge/🌍_Multilingual-EN_·_FR_·_Tunisian_Derja-2563EB?style=flat-square"/>
+<img src="https://img.shields.io/badge/📊_Evaluated-speaker--independent,_not_leaky-1E3A8A?style=flat-square"/>
 
 </div>
 
@@ -262,7 +267,8 @@ Handwritten Tunisian legal forms → structured, searchable client records, **en
 2026 · Jun–Aug   AI Engineering Intern — Wevioo
                  Solace: full-duplex voice, concurrent face + voice emotion
                  classifiers, RAG over 603 clinical docs. 2 models to HF.
-                 Latency cut 4.1× by restructuring for streaming + parallelism.
+                 End-to-end voice response time cut 4.1× (speech-end to first
+                 audio out) via streaming + parallel classifier execution.
 
 2026 · Feb–Jun   Project Lead — FX AlphaLab (ESPRIT × VALUE)
                  6 engineers, 5 months. Owned the macro agent end to end.
@@ -283,15 +289,13 @@ Handwritten Tunisian legal forms → structured, searchable client records, **en
 
 <div align="center">
 
-| | Certification | Issuer | Date |
-|:--:|---|---|:--:|
-| <img src="https://img.shields.io/badge/LLM-2563EB?style=flat-square"/> | [**LLM Engineering in Practice** with Streamlit & OpenAI](https://learn.365datascience.com/c/7075d10c57) | 365 Data Science | Mar 2026 |
-| <img src="https://img.shields.io/badge/NVIDIA-76B900?style=flat-square&logo=nvidia&logoColor=white"/> | [**Fundamentals of Deep Learning**](https://learn.nvidia.com/certificates) | NVIDIA Deep Learning Institute | Jan 2026 |
-| <img src="https://img.shields.io/badge/CNN-1E3A8A?style=flat-square"/> | [**Convolutional Neural Networks** with TensorFlow in Python](https://learn.365datascience.com/c/b7907b56fe) | 365 Data Science | Nov 2025 |
-| <img src="https://img.shields.io/badge/NVIDIA-76B900?style=flat-square&logo=nvidia&logoColor=white"/> | [**Building AI Agents with Multimodal Models**](https://learn.nvidia.com/certificates?id=JOcvsCL5R_COA2qjS-_V1Q) | NVIDIA DLI | Jan 2025 |
-| <img src="https://img.shields.io/badge/NVIDIA-76B900?style=flat-square&logo=nvidia&logoColor=white"/> | [**Generative AI with Diffusion Models**](https://learn.nvidia.com/certificates?id=-5GEyfimSQme_gwlTRSCsw) | NVIDIA DLI | Jan 2025 |
-| <img src="https://img.shields.io/badge/Big_Data-38BDF8?style=flat-square"/> | [**Big Data 101**](https://courses.cognitiveclass.ai/certificates/73ebe31b221e4b4cb3edb0621fa82c3a) | CognitiveClass.ai | Oct 2025 |
-| <img src="https://img.shields.io/badge/Hadoop-66CCFF?style=flat-square&logo=apachehadoop&logoColor=black"/> | [**Hadoop 101**](https://courses.cognitiveclass.ai/certificates/fe20c4ba832047a3a8339860f408d02d) | CognitiveClass.ai | Oct 2025 |
+| Certification | Issuer | What it covered | Date | |
+|---|---|---|:--:|:--:|
+| **LLM Engineering in Practice** | 365 Data Science | Building and deploying an LLM application end to end — prompt design, the OpenAI API, and shipping it behind a Streamlit interface rather than leaving it in a notebook. | Mar 2026 | [![cert](https://img.shields.io/badge/verify-2563EB?style=flat-square)](https://learn.365datascience.com/c/7075d10c57) |
+| **Fundamentals of Deep Learning** | NVIDIA Deep Learning Institute | Training neural networks on GPU from first principles — backpropagation, CNN architectures, data augmentation, transfer learning, and the mechanics of what makes training actually converge. | Jan 2026 | [![cert](https://img.shields.io/badge/verify-76B900?style=flat-square)](https://learn.nvidia.com/certificates) |
+| **Convolutional Neural Networks with TensorFlow** | 365 Data Science | CNN architecture design and image classification in TensorFlow — the vision groundwork underneath the EfficientNet-B0 classifiers running in Solace and NeuraShop. | Nov 2025 | [![cert](https://img.shields.io/badge/verify-1E3A8A?style=flat-square)](https://learn.365datascience.com/c/b7907b56fe) |
+| **Building AI Agents with Multimodal Models** | NVIDIA Deep Learning Institute | Composing vision-language models into agents that plan and act across modalities — directly relevant to the multi-channel fusion work in Solace. | Jan 2025 | [![cert](https://img.shields.io/badge/verify-76B900?style=flat-square)](https://learn.nvidia.com/certificates?id=JOcvsCL5R_COA2qjS-_V1Q) |
+| **Generative AI with Diffusion Models** | NVIDIA Deep Learning Institute | The denoising diffusion process from noise scheduling to sampling — how modern image and audio generation actually works, rather than just calling an API for it. | Jan 2025 | [![cert](https://img.shields.io/badge/verify-76B900?style=flat-square)](https://learn.nvidia.com/certificates?id=-5GEyfimSQme_gwlTRSCsw) |
 
 </div>
 
@@ -303,19 +307,55 @@ Handwritten Tunisian legal forms → structured, searchable client records, **en
 |---|---|
 | **Honest metrics** | Speaker-independent evaluation over the leaky random split that inflates every number you've seen. Provenance labels on every reported figure — `Measured` vs `Model estimate` vs `NOT MEASURED`. The system reports what it could not observe rather than inventing a number. |
 | **Degrade, don't die** | Confidence gates with deterministic fallbacks. RAG that drops to keyword scoring when the vector stack is down. Firecrawl failure downgraded to a warning, not a crash. The report always ships. |
-| **Latency is a feature** | 4.1× end-to-end reduction by restructuring for streaming and parallel execution — not by buying a bigger GPU. Parallel scrapers under one `gather` so wall time is `max()`, not the sum. |
+| **Latency is a feature** | Solace's end-to-end response time dropped 4.1× — from a user finishing speaking to hearing the first word back — by restructuring inference to stream and run classifiers in parallel, not by buying a bigger GPU. Elsewhere: parallel scrapers under one `gather`, so wall time is `max()` rather than the sum. |
 | **Known limitations, written down** | Every repo carries an honest inventory of what's broken, what's mocked, and what's aspirational. Engineering is what you built *and* what you know you didn't. |
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0A192F,50:2563EB,100:38BDF8&height=3&section=header"/>
 
-## `>` currently
+## `>` what I'm learning next
+
+Honest split — the left column is what I've shipped, the right is what I'm actively studying and haven't deployed yet. I'd rather say which is which than blur them.
+
+<table>
+<tr>
+<th align="left" width="50%">Shipped</th>
+<th align="left" width="50%">In progress</th>
+</tr>
+<tr valign="top">
+<td>
+
+**Fine-tuning** — wav2vec2-XLSR-53 and F5-TTS, both published
+
+**RAG** — ChromaDB, multilingual-e5, hybrid retrieval with keyword fallback
+
+**Agent orchestration** — LangGraph `StateGraph`, fan-out with `Send()`, conviction gating
+
+**Serving** — FastAPI, WebSockets, SSE streaming, ONNX inference
+
+**MLOps** — MLflow tracking, Prometheus metrics, split train/serve Docker images
+
+</td>
+<td>
+
+**Cloud AI infrastructure** — moving my local Docker Compose stacks onto managed infrastructure; GPU instance selection, autoscaling inference endpoints, and what actually changes about a serving path when it leaves one machine
+
+**LLMOps** — prompt and model versioning, tracing and observability across a multi-step agent run, cost and token budgeting, safe rollout of a prompt change
+
+**Agent evaluation** — the part nobody solved yet: building eval harnesses for multi-step agents where correctness isn't a single label, plus LLM-as-judge reliability and regression suites
+
+**Inference optimisation** — quantisation, KV-cache behaviour, batching and throughput tuning on vLLM
+
+**Preference tuning** — DPO and reward modelling, beyond supervised fine-tuning
+
+**Model Context Protocol** — standardised tool interfaces for agents
+
+</td>
+</tr>
+</table>
 
 <div align="center">
 
-<img src="https://img.shields.io/badge/📚_Reading-agentic_eval_harnesses-2563EB?style=flat-square"/>
-<img src="https://img.shields.io/badge/🔬_Exploring-inference_optimisation-1E3A8A?style=flat-square"/>
-<img src="https://img.shields.io/badge/🛠_Building-multi--agent_orchestration-38BDF8?style=flat-square"/>
-<img src="https://img.shields.io/badge/🎯_Next-a_low--resource_language_fine--tune-0A192F?style=flat-square"/>
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=15&duration=2600&pause=800&color=7DD3FC&center=true&vCenter=true&width=680&lines=Reading%3A+eval+harnesses+for+multi-step+agents;Studying%3A+cloud+GPU+serving+and+autoscaling;Building%3A+a+low-resource+language+fine-tune;Next%3A+quantised+inference+on+managed+infrastructure" alt="Currently"/>
 
 </div>
 
