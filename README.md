@@ -11,13 +11,13 @@
 <a href="https://www.linkedin.com/in/ghazouani-wala-eddine"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
 <a href="https://huggingface.co/Ghazouaniwala"><img src="https://img.shields.io/badge/Hugging_Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black"/></a>
 <a href="mailto:walaghazouani.work@gmail.com"><img src="https://img.shields.io/badge/Email-2563EB?style=for-the-badge&logo=gmail&logoColor=white"/></a>
-<a href="https://github.com/Ghazouaniwalae"><img src="https://img.shields.io/badge/GitHub-0A192F?style=for-the-badge&logo=github&logoColor=white"/></a>
+<a href="https://github.com/GhazouaniWala"><img src="https://img.shields.io/badge/GitHub-0A192F?style=for-the-badge&logo=github&logoColor=white"/></a>
 <a href="https://www.upwork.com/freelancers/~walaghazouani"><img src="https://img.shields.io/badge/Upwork-14A800?style=for-the-badge&logo=upwork&logoColor=white"/></a>
 
 <br/>
 
-<img src="https://komarev.com/ghpvc/?username=Ghazouaniwalae&label=Profile%20views&color=2563EB&style=flat-square" alt="Profile views"/>
-<img src="https://img.shields.io/github/followers/Ghazouaniwalae?label=Followers&style=flat-square&color=1E3A8A"/>
+<img src="https://komarev.com/ghpvc/?username=GhazouaniWala&label=Profile%20views&color=2563EB&style=flat-square" alt="Profile views"/>
+<img src="https://img.shields.io/github/followers/GhazouaniWala?label=Followers&style=flat-square&color=1E3A8A"/>
 <img src="https://img.shields.io/badge/Status-Open_to_2027_internships-22D3A6?style=flat-square"/>
 <img src="https://img.shields.io/badge/Ariana,_Tunisia-38BDF8?style=flat-square"/>
 <img src="https://img.shields.io/badge/Relocation-EU_%7C_Canada-2563EB?style=flat-square"/>
@@ -38,9 +38,16 @@ specialise:  [ LLMs, RAG, multimodal, agentic systems, computer vision, MLOps ]
 publishes:   huggingface.co/Ghazouaniwala
 ```
 
-> *"A model that only works in the notebook hasn't solved anything. The engineering is everything between the weights and the user."*
+<div align="center">
 
-**Track record** — Two AI-focused internships at **Wevioo**, the second shipping a production multimodal system. Two fine-tuned speech models published on **Hugging Face**. **Project lead** of a six-person multi-agent financial platform delivered with industry partner **VALUE**. Freelance AI engineer on **Upwork**, taking client RAG and agent systems from scoping through deployment and handover.
+### *"Data is meaningless without context."*
+**— Wala Eddine Ghazouani**
+
+</div>
+
+**Selected back for a second year at Wevioo.** A digital-transformation consultancy operating in 30+ countries brought me back after my first internship and handed me a harder brief — going from a solo full-stack delivery to owning a production multimodal AI system. Being re-invited is the part I'd point to: the first internship was an audition, the second was a decision.
+
+Alongside that: **project lead** of a six-person multi-agent platform delivered with industry partner **VALUE**, two fine-tuned speech models published on **Hugging Face**, and freelance AI work on **Upwork** building **agentic systems and workflow automation** for international clients — scoping through deployment and handover.
 
 ### AI capabilities I've worked in
 
@@ -48,7 +55,9 @@ publishes:   huggingface.co/Ghazouaniwala
 |---|---|
 | **Model fine-tuning** | Adapted pretrained speech models to new tasks and a new language, and published both. Includes the evaluation design — measuring on unseen speakers, not an easier split. |
 | **Retrieval-Augmented Generation** | Built retrieval layers over clinical literature, product catalogues, financial news and UX research, so answers come from real sources instead of the model's guess. |
+| **Agentic AI** | Built agents that plan, call tools and act over multiple steps, with orchestration deciding what runs, in what order, and what happens on failure. |
 | **Multi-agent systems** | Designed agents that analyse a problem from independent angles, then coordinated them — including the logic for what to do when they disagree. |
+| **AI workflow automation** | Replaced manual processes end to end: data captured, understood and turned into a finished record or decision without a person in the middle. |
 | **Computer vision** | Image classification, quality assessment, facial analysis and document recognition, deployed to run fast enough for live use. |
 | **Speech & audio AI** | Speech-to-text, text-to-speech, and emotion recognition from vocal tone alone. |
 | **Multimodal AI** | Combining vision, audio and text signals into one decision, keeping the channels separate so conflicts between them stay visible. |
@@ -187,14 +196,14 @@ publishes:   huggingface.co/Ghazouaniwala
 
 ## `>` featured work
 
-### 🧠 [Solace](https://github.com/Ghazouaniwalae/solace) — real-time multimodal AI coach
+### 🧠 [Solace](https://github.com/GhazouaniWala/solace) — real-time multimodal AI coach
 
 > Two emotion classifiers run on you *concurrently* — facial expression (EfficientNet-B0, ONNX) and vocal tone (fine-tuned wav2vec2-XLSR-53) — and the **disagreement between channels is surfaced, not averaged away**, because a user whose wording reads `neutral` while their voice reads `fearful` is the single most useful thing the system can notice. Answers stream back over full-duplex WebSocket, grounded in RAG across **603 clinical documents** and cited by named technique. Follows your language per turn — switch mid-session and the next reply comes back in the new one, voice included.
 
 <table>
 <tr>
-<td width="50%"><img src="https://raw.githubusercontent.com/Ghazouaniwalae/solace/main/docs/screenshots/voice-mode.png" alt="Voice mode"/><br/><sub><b>Voice mode</b> — orb driven by live FFT of the audio stream</sub></td>
-<td width="50%"><img src="https://raw.githubusercontent.com/Ghazouaniwalae/solace/main/docs/screenshots/report.png" alt="Session report"/><br/><sub><b>Session report</b> — every metric labelled <code>Measured</code> vs <code>Model estimate</code></sub></td>
+<td width="50%"><img src="https://raw.githubusercontent.com/GhazouaniWala/solace/main/docs/screenshots/voice-mode.png" alt="Voice mode"/><br/><sub><b>Voice mode</b> — orb driven by live FFT of the audio stream</sub></td>
+<td width="50%"><img src="https://raw.githubusercontent.com/GhazouaniWala/solace/main/docs/screenshots/report.png" alt="Session report"/><br/><sub><b>Session report</b> — every metric labelled <code>Measured</code> vs <code>Model estimate</code></sub></td>
 </tr>
 </table>
 
@@ -202,14 +211,14 @@ publishes:   huggingface.co/Ghazouaniwala
 
 ---
 
-### 📈 [FX AlphaLab](https://github.com/Ghazouaniwalae/fx-alphalabs) — multi-agent financial intelligence
+### 📈 [FX AlphaLab](https://github.com/GhazouaniWala/fx-alphalabs) — multi-agent financial intelligence
 
 > **Project lead, 6 engineers, 5 months**, delivered with industry partner VALUE. Technical, macro and sentiment agents analyse the market independently, then pass through an orchestrator and a **conviction gate that exists specifically to suppress signals the agents disagree on**. Unified feature matrix of **204k+ rows spanning 2015–2025**. I owned the macro agent end to end — ingestion, feature engineering, regime detection, training, orchestration — and set up the MLOps layer.
 
 <table>
 <tr>
-<td width="50%"><img src="https://raw.githubusercontent.com/Ghazouaniwalae/fx-alphalabs/main/screenshots/signals.jpg" alt="Signal analysis"/><br/><sub><b>Signals</b> — per-analyst reasoning, conviction, risk parameters</sub></td>
-<td width="50%"><img src="https://raw.githubusercontent.com/Ghazouaniwalae/fx-alphalabs/main/screenshots/performance.jpg" alt="Performance dashboard"/><br/><sub><b>Backtesting</b> — win rate, profit factor, drawdown, Sharpe</sub></td>
+<td width="50%"><img src="https://raw.githubusercontent.com/GhazouaniWala/fx-alphalabs/main/screenshots/signals.jpg" alt="Signal analysis"/><br/><sub><b>Signals</b> — per-analyst reasoning, conviction, risk parameters</sub></td>
+<td width="50%"><img src="https://raw.githubusercontent.com/GhazouaniWala/fx-alphalabs/main/screenshots/performance.jpg" alt="Performance dashboard"/><br/><sub><b>Backtesting</b> — win rate, profit factor, drawdown, Sharpe</sub></td>
 </tr>
 </table>
 
@@ -217,14 +226,14 @@ publishes:   huggingface.co/Ghazouaniwala
 
 ---
 
-### 🔎 [Critiq](https://github.com/Ghazouaniwalae/critiq) — agentic UX & conversion audit
+### 🔎 [Critiq](https://github.com/GhazouaniWala/critiq) — agentic UX & conversion audit
 
 > A **LangGraph `StateGraph`** fans specialist agents out with `Send()` and a custom state reducer. Every dimension sits behind a confidence gate with a deterministic heuristic fallback, so **the report always ships** with per-dimension honesty about which score is which. Weights adapt to site type — a trust badge matters more on an ecommerce checkout than a portfolio. Hybrid Playwright + Firecrawl scraping runs under one `asyncio.gather`, so wall time is `max()`, not the sum.
 
 <table>
 <tr>
-<td width="50%"><img src="https://raw.githubusercontent.com/Ghazouaniwalae/critiq/main/docs/screenshots/report-radar-dark.png" alt="Dimension radar"/><br/><sub><b>14-dimension radar</b> — real run against stripe.com, 88/100</sub></td>
-<td width="50%"><img src="https://raw.githubusercontent.com/Ghazouaniwalae/critiq/main/docs/screenshots/report-top-fixes-dark.png" alt="Top fixes"/><br/><sub><b>Top fixes</b> — ranked by weight × deficit, each with DOM evidence</sub></td>
+<td width="50%"><img src="https://raw.githubusercontent.com/GhazouaniWala/critiq/main/docs/screenshots/report-radar-dark.png" alt="Dimension radar"/><br/><sub><b>14-dimension radar</b> — real run against stripe.com, 88/100</sub></td>
+<td width="50%"><img src="https://raw.githubusercontent.com/GhazouaniWala/critiq/main/docs/screenshots/report-top-fixes-dark.png" alt="Top fixes"/><br/><sub><b>Top fixes</b> — ranked by weight × deficit, each with DOM evidence</sub></td>
 </tr>
 </table>
 
@@ -236,7 +245,7 @@ publishes:   huggingface.co/Ghazouaniwala
 <tr>
 <td width="50%" valign="top">
 
-### 🛒 [NeuraShop](https://github.com/Ghazouaniwalae/neurashop)
+### 🛒 [NeuraShop](https://github.com/GhazouaniWala/neurashop)
 **Accessible AI marketplace**
 
 Six deep-learning modules fire at the moment of upload so no seller fills in a form: auto-categorisation (**97.4% F1**, 14 classes — my module), WCAG-validated alt-text via BLIP so screen-reader users aren't locked out, a photo-quality gate with CNN enhancer fallback, aspect-based review sentiment, visual recommendations, and a RAG shopping assistant.
@@ -246,7 +255,7 @@ Six deep-learning modules fire at the moment of upload so no seller fills in a f
 </td>
 <td width="50%" valign="top">
 
-### 📄 [Wathika](https://github.com/Ghazouaniwalae/wathika-ocr)
+### 📄 [Wathika](https://github.com/GhazouaniWala/wathika-ocr)
 **Offline Arabic document intelligence**
 
 Handwritten Tunisian legal forms → structured, searchable client records, **entirely offline** — privileged client data under Tunisia's INPDP regime cannot go to a cloud OCR API. Template matching locates each field; per-field recognisers handle handwritten Arabic, numerals, checkboxes, signatures. Human corrections are retained as labelled training data.
@@ -258,7 +267,7 @@ Handwritten Tunisian legal forms → structured, searchable client records, **en
 </table>
 
 <div align="center">
-<a href="https://github.com/Ghazouaniwalae?tab=repositories"><img src="https://img.shields.io/badge/→_browse_all_repositories-38BDF8?style=for-the-badge"/></a>
+<a href="https://github.com/GhazouaniWala?tab=repositories"><img src="https://img.shields.io/badge/→_browse_all_repositories-38BDF8?style=for-the-badge"/></a>
 </div>
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0A192F,50:2563EB,100:38BDF8&height=3&section=header"/>
@@ -291,85 +300,116 @@ Handwritten Tunisian legal forms → structured, searchable client records, **en
 
 <table>
 <tr>
-<td width="55%" valign="middle">
+<td width="58%" valign="top">
 
-### LLM Engineering in Practice
-`365 Data Science` · **Mar 2026**
+### 🧠 LLM Engineering in Practice
+
+**Provider** &nbsp;·&nbsp; 365 Data Science
+**Issued** &nbsp;·&nbsp; March 2026
+**Credential ID** &nbsp;·&nbsp; `CC-D474221DCF`
 
 Building and deploying an LLM application end to end — prompt design, the OpenAI API, and shipping it behind a real interface rather than leaving it in a notebook.
 
 </td>
-<td width="45%" align="center" valign="middle">
+<td width="42%" align="center" valign="middle">
 
-<a href="https://learn.365datascience.com/c/7075d10c57"><img src="https://img.shields.io/badge/🔗_VIEW_CREDENTIAL-2563EB?style=for-the-badge&labelColor=0A192F" height="42"/></a>
+<br/>
+
+<a href="https://learn.365datascience.com/c/7075d10c57"><img src="https://img.shields.io/badge/🔗%20%20VIEW%20CREDENTIAL%20%20→-2563EB?style=for-the-badge&labelColor=0A192F&logoColor=white" height="46"/></a>
 
 </td>
 </tr>
 
 <tr>
-<td width="55%" valign="middle">
+<td width="58%" valign="top">
 
-### Fundamentals of Deep Learning
-`NVIDIA Deep Learning Institute` · **Jan 2026**
+### ⚡ Fundamentals of Deep Learning
+
+**Provider** &nbsp;·&nbsp; NVIDIA Deep Learning Institute
+**Issued** &nbsp;·&nbsp; January 2026
+**Credential ID** &nbsp;·&nbsp; `1tO0Ys3ITkGJkXM3sgBKrQ`
 
 Training neural networks on GPU from first principles — backpropagation, CNN architectures, augmentation, transfer learning, and what actually makes training converge.
 
 </td>
-<td width="45%" align="center" valign="middle">
+<td width="42%" align="center" valign="middle">
 
-<a href="https://learn.nvidia.com/certificates"><img src="https://img.shields.io/badge/🔗_VIEW_CREDENTIAL-76B900?style=for-the-badge&labelColor=0A192F" height="42"/></a>
+<br/>
+
+<a href="https://learn.nvidia.com/certificates"><img src="https://img.shields.io/badge/🔗%20%20VIEW%20CREDENTIAL%20%20→-76B900?style=for-the-badge&labelColor=0A192F&logo=nvidia&logoColor=white" height="46"/></a>
 
 </td>
 </tr>
 
 <tr>
-<td width="55%" valign="middle">
+<td width="58%" valign="top">
 
-### Building AI Agents with Multimodal Models
-`NVIDIA Deep Learning Institute` · **Jan 2025**
+### 🤖 Building AI Agents with Multimodal Models
+
+**Provider** &nbsp;·&nbsp; NVIDIA Deep Learning Institute
+**Issued** &nbsp;·&nbsp; January 2025
+**Credential ID** &nbsp;·&nbsp; `F2g-DA5JToWxYr22V1Y7Tg`
 
 Composing vision-language models into agents that plan and act across modalities — the foundation under the multi-channel fusion work in my own systems.
 
 </td>
-<td width="45%" align="center" valign="middle">
+<td width="42%" align="center" valign="middle">
 
-<a href="https://learn.nvidia.com/certificates?id=JOcvsCL5R_COA2qjS-_V1Q"><img src="https://img.shields.io/badge/🔗_VIEW_CREDENTIAL-76B900?style=for-the-badge&labelColor=0A192F" height="42"/></a>
+<br/>
+
+<a href="https://learn.nvidia.com/certificates?id=JOcvsCL5R_COA2qjS-_V1Q"><img src="https://img.shields.io/badge/🔗%20%20VIEW%20CREDENTIAL%20%20→-76B900?style=for-the-badge&labelColor=0A192F&logo=nvidia&logoColor=white" height="46"/></a>
 
 </td>
 </tr>
 
 <tr>
-<td width="55%" valign="middle">
+<td width="58%" valign="top">
 
-### Generative AI with Diffusion Models
-`NVIDIA Deep Learning Institute` · **Jan 2025**
+### 🎨 Generative AI with Diffusion Models
+
+**Provider** &nbsp;·&nbsp; NVIDIA Deep Learning Institute
+**Issued** &nbsp;·&nbsp; January 2025
+**Credential ID** &nbsp;·&nbsp; `TauXuWfURMOBYNutOVkopw`
 
 The denoising diffusion process from noise scheduling through sampling — how modern image and audio generation works underneath, not just how to call it.
 
 </td>
-<td width="45%" align="center" valign="middle">
+<td width="42%" align="center" valign="middle">
 
-<a href="https://learn.nvidia.com/certificates?id=-5GEyfimSQme_gwlTRSCsw"><img src="https://img.shields.io/badge/🔗_VIEW_CREDENTIAL-76B900?style=for-the-badge&labelColor=0A192F" height="42"/></a>
+<br/>
+
+<a href="https://learn.nvidia.com/certificates?id=-5GEyfimSQme_gwlTRSCsw"><img src="https://img.shields.io/badge/🔗%20%20VIEW%20CREDENTIAL%20%20→-76B900?style=for-the-badge&labelColor=0A192F&logo=nvidia&logoColor=white" height="46"/></a>
 
 </td>
 </tr>
 
 <tr>
-<td width="55%" valign="middle">
+<td width="58%" valign="top">
 
-### Convolutional Neural Networks with TensorFlow
-`365 Data Science` · **Nov 2025**
+### 👁 Convolutional Neural Networks with TensorFlow
+
+**Provider** &nbsp;·&nbsp; 365 Data Science
+**Issued** &nbsp;·&nbsp; November 2025
+**Credential ID** &nbsp;·&nbsp; `CC-C804599CCC`
 
 CNN architecture design and image classification — the vision groundwork underneath the classifiers running in my production systems.
 
 </td>
-<td width="45%" align="center" valign="middle">
+<td width="42%" align="center" valign="middle">
 
-<a href="https://learn.365datascience.com/c/b7907b56fe"><img src="https://img.shields.io/badge/🔗_VIEW_CREDENTIAL-1E3A8A?style=for-the-badge&labelColor=0A192F" height="42"/></a>
+<br/>
+
+<a href="https://learn.365datascience.com/c/b7907b56fe"><img src="https://img.shields.io/badge/🔗%20%20VIEW%20CREDENTIAL%20%20→-1E3A8A?style=for-the-badge&labelColor=0A192F&logoColor=white" height="46"/></a>
 
 </td>
 </tr>
 </table>
+
+<br/>
+
+<img src="https://img.shields.io/badge/NVIDIA_DLI-3_certifications-76B900?style=flat-square&logo=nvidia&logoColor=white"/>
+<img src="https://img.shields.io/badge/365_Data_Science-2_certifications-2563EB?style=flat-square"/>
+<img src="https://img.shields.io/badge/All_credentials-independently_verifiable-38BDF8?style=flat-square"/>
 
 </div>
 
@@ -431,20 +471,24 @@ Currently studying, not yet shipped — listed separately from my project work o
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=Ghazouaniwalae&show_icons=true&hide_border=true&bg_color=0A192F&title_color=38BDF8&text_color=94A3B8&icon_color=2563EB&ring_color=38BDF8" height="165"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ghazouaniwalae&layout=compact&hide_border=true&bg_color=0A192F&title_color=38BDF8&text_color=94A3B8" height="165"/>
+<img src="https://github-readme-stats.vercel.app/api?username=GhazouaniWala&show_icons=true&hide_border=true&bg_color=0A192F&title_color=38BDF8&text_color=94A3B8&icon_color=2563EB&ring_color=38BDF8" height="165"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=GhazouaniWala&layout=compact&hide_border=true&bg_color=0A192F&title_color=38BDF8&text_color=94A3B8" height="165"/>
 
 <br/>
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Ghazouaniwalae&hide_border=true&background=0A192F&stroke=1E3A8A&ring=38BDF8&fire=2563EB&currStreakLabel=38BDF8&sideLabels=94A3B8&dates=94A3B8&currStreakNum=FFFFFF&sideNums=FFFFFF" height="165"/>
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=GhazouaniWala&hide_border=true&background=0A192F&stroke=1E3A8A&ring=38BDF8&fire=2563EB&currStreakLabel=38BDF8&sideLabels=94A3B8&dates=94A3B8&currStreakNum=FFFFFF&sideNums=FFFFFF" height="165"/>
 
 <br/>
 
-<img src="https://github-profile-trophy.vercel.app/?username=Ghazouaniwalae&theme=algolia&no-frame=true&no-bg=true&column=7&margin-w=8"/>
+<img src="https://github-profile-trophy.vercel.app/?username=GhazouaniWala&theme=algolia&no-frame=true&no-bg=true&column=7&margin-w=8"/>
 
 <br/>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Ghazouaniwalae&bg_color=0A192F&color=94A3B8&line=38BDF8&point=2563EB&area=true&hide_border=true"/>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=GhazouaniWala&bg_color=0A192F&color=94A3B8&line=38BDF8&point=2563EB&area=true&hide_border=true"/>
+
+<br/><br/>
+
+<img src="https://skillicons.dev/icons?i=python,pytorch,tensorflow,sklearn,fastapi,flask,docker,linux,git,github,react,ts,tailwind,vite,postgres,mysql,opencv,anaconda&theme=dark&perline=9"/>
 
 </div>
 
