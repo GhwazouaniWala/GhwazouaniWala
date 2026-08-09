@@ -36,24 +36,24 @@ name:        Wala Eddine Ghazouani
 role:        AI / ML Engineer
 specialise:  [ LLMs, RAG, multimodal, agentic systems, computer vision, MLOps ]
 publishes:   huggingface.co/Ghazouaniwala
-learning:    cloud AI infrastructure · LLMOps · agent evaluation
 ```
 
 **Track record** — Two AI-focused internships at **Wevioo**, the second shipping a production multimodal system. Two fine-tuned speech models published on **Hugging Face**. **Project lead** of a six-person multi-agent financial platform delivered with industry partner **VALUE**. Freelance AI engineer on **Upwork**, taking client RAG and agent systems from scoping through deployment and handover.
 
-<div align="center">
+### AI capabilities I've worked in
 
-**Systems I've actually built and shipped**
-
-<img src="https://img.shields.io/badge/⚡_Real--time-full--duplex_voice_over_WebSocket-2563EB?style=flat-square"/>
-<img src="https://img.shields.io/badge/👁_Multimodal-face_+_voice_+_text_fusion-1E3A8A?style=flat-square"/>
-<img src="https://img.shields.io/badge/🤖_Multi--agent-orchestrated,_with_a_conviction_gate-38BDF8?style=flat-square"/>
-<br/>
-<img src="https://img.shields.io/badge/🔒_Offline--first-no_data_leaves_the_machine-0A192F?style=flat-square"/>
-<img src="https://img.shields.io/badge/🌍_Multilingual-three_languages,_per--turn_switching-2563EB?style=flat-square"/>
-<img src="https://img.shields.io/badge/📊_Evaluated-speaker--independent,_not_leaky-1E3A8A?style=flat-square"/>
-
-</div>
+| Area | What I've done with it |
+|---|---|
+| **Model fine-tuning** | Adapted pretrained speech models to new tasks and a new language, and published both. Includes the evaluation design — measuring on unseen speakers, not an easier split. |
+| **Retrieval-Augmented Generation** | Built retrieval layers over clinical literature, product catalogues, financial news and UX research, so answers come from real sources instead of the model's guess. |
+| **Multi-agent systems** | Designed agents that analyse a problem from independent angles, then coordinated them — including the logic for what to do when they disagree. |
+| **Computer vision** | Image classification, quality assessment, facial analysis and document recognition, deployed to run fast enough for live use. |
+| **Speech & audio AI** | Speech-to-text, text-to-speech, and emotion recognition from vocal tone alone. |
+| **Multimodal AI** | Combining vision, audio and text signals into one decision, keeping the channels separate so conflicts between them stay visible. |
+| **NLP** | Sentiment analysis, image captioning, text classification, and multilingual processing across three languages. |
+| **Model deployment** | Taking models out of notebooks: optimised runtimes, streaming responses, real-time connections, and APIs other systems can call. |
+| **MLOps** | Experiment tracking, monitoring, containerised training and serving, and reproducible pipelines. |
+| **Evaluation** | Deciding what "good" means before claiming it — honest test design, confidence thresholds, and backtesting. |
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0A192F,50:2563EB,100:38BDF8&height=3&section=header"/>
 
@@ -313,44 +313,17 @@ Handwritten Tunisian legal forms → structured, searchable client records, **en
 
 ## `>` what I'm learning next
 
-Honest split — the left column is what I've shipped, the right is what I'm actively studying and haven't deployed yet. I'd rather say which is which than blur them.
+Currently studying, not yet shipped — listed separately from my project work on purpose.
 
-<table>
-<tr>
-<th align="left" width="50%">Shipped</th>
-<th align="left" width="50%">In progress</th>
-</tr>
-<tr valign="top">
-<td>
-
-**Fine-tuning** — wav2vec2-XLSR-53 and F5-TTS, both published
-
-**RAG** — ChromaDB, multilingual-e5, hybrid retrieval with keyword fallback
-
-**Agent orchestration** — LangGraph `StateGraph`, fan-out with `Send()`, conviction gating
-
-**Serving** — FastAPI, WebSockets, SSE streaming, ONNX inference
-
-**MLOps** — MLflow tracking, Prometheus metrics, split train/serve Docker images
-
-</td>
-<td>
-
-**Cloud AI infrastructure** — moving my local Docker Compose stacks onto managed infrastructure; GPU instance selection, autoscaling inference endpoints, and what actually changes about a serving path when it leaves one machine
-
-**LLMOps** — prompt and model versioning, tracing and observability across a multi-step agent run, cost and token budgeting, safe rollout of a prompt change
-
-**Agent evaluation** — the part nobody solved yet: building eval harnesses for multi-step agents where correctness isn't a single label, plus LLM-as-judge reliability and regression suites
-
-**Inference optimisation** — quantisation, KV-cache behaviour, batching and throughput tuning on vLLM
-
-**Preference tuning** — DPO and reward modelling, beyond supervised fine-tuning
-
-**Model Context Protocol** — standardised tool interfaces for agents
-
-</td>
-</tr>
-</table>
+| | |
+|---|---|
+| **Cloud AI infrastructure** | Running models on managed cloud rather than one machine — GPU instance selection, autoscaling inference endpoints, and what changes about a serving path once it leaves localhost. |
+| **LLMOps** | Prompt and model versioning, tracing a multi-step agent run end to end, token and cost budgeting, and rolling out a prompt change safely. |
+| **Agent evaluation** | Eval harnesses for agents where correctness isn't one label — trajectory scoring, LLM-as-judge reliability, and regression suites that catch silent degradation. |
+| **Inference optimisation** | Quantisation, KV-cache behaviour, and batching for throughput on vLLM. |
+| **Preference tuning** | DPO and reward modelling — aligning a model to preferences, beyond supervised fine-tuning. |
+| **Model Context Protocol** | Standardised tool interfaces so agents connect to external systems consistently. |
+| **Small & on-device models** | Distillation and compact architectures for cases where a large hosted model is the wrong answer. |
 
 <div align="center">
 
