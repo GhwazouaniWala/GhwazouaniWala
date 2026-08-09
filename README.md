@@ -11,17 +11,25 @@
 <a href="https://www.linkedin.com/in/ghazouani-wala-eddine"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
 <a href="https://huggingface.co/Ghazouaniwala"><img src="https://img.shields.io/badge/Hugging_Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black"/></a>
 <a href="mailto:walaghazouani.work@gmail.com"><img src="https://img.shields.io/badge/Email-2563EB?style=for-the-badge&logo=gmail&logoColor=white"/></a>
-<a href="https://github.com/GhazouaniWala"><img src="https://img.shields.io/badge/GitHub-0A192F?style=for-the-badge&logo=github&logoColor=white"/></a>
+<a href="https://github.com/GhwazouaniWala"><img src="https://img.shields.io/badge/GitHub-0A192F?style=for-the-badge&logo=github&logoColor=white"/></a>
 <a href="https://www.upwork.com/freelancers/~walaghazouani"><img src="https://img.shields.io/badge/Upwork-14A800?style=for-the-badge&logo=upwork&logoColor=white"/></a>
 
 <br/>
 
-<img src="https://komarev.com/ghpvc/?username=GhazouaniWala&label=Profile%20views&color=2563EB&style=flat-square" alt="Profile views"/>
-<img src="https://img.shields.io/github/followers/GhazouaniWala?label=Followers&style=flat-square&color=1E3A8A"/>
+<img src="https://komarev.com/ghpvc/?username=GhwazouaniWala&label=Profile%20views&color=2563EB&style=flat-square" alt="Profile views"/>
+<img src="https://img.shields.io/github/followers/GhwazouaniWala?label=Followers&style=flat-square&color=1E3A8A"/>
 <img src="https://img.shields.io/badge/Status-Open_to_2027_internships-22D3A6?style=flat-square"/>
 <img src="https://img.shields.io/badge/Ariana,_Tunisia-38BDF8?style=flat-square"/>
 <img src="https://img.shields.io/badge/Relocation-EU_%7C_Canada-2563EB?style=flat-square"/>
 <img src="https://img.shields.io/badge/AR_%C2%B7_FR_%C2%B7_EN-1E3A8A?style=flat-square"/>
+
+</div>
+
+<div align="center">
+
+<img src="https://readme-typing-svg.demolab.com?font=Georgia&weight=400&size=27&duration=4000&pause=1500&color=BFE3FF&center=true&vCenter=true&width=800&lines=%22Data+is+meaningless+without+context.%22" alt="Data is meaningless without context"/>
+
+<sub>**— Wala Eddine Ghazouani**</sub>
 
 </div>
 
@@ -38,16 +46,13 @@ specialise:  [ LLMs, RAG, multimodal, agentic systems, computer vision, MLOps ]
 publishes:   huggingface.co/Ghazouaniwala
 ```
 
+**What I've done so far** — two internships at **Wevioo**, a digital-transformation consultancy working across 30+ countries, the second focused on production multimodal AI. **Project lead** of a six-person multi-agent platform delivered with industry partner **VALUE**. Two fine-tuned speech models published on **Hugging Face**. Freelance AI work on **Upwork** building **agentic systems and workflow automation** for international clients, from scoping through deployment and handover.
+
 <div align="center">
 
-### *"Data is meaningless without context."*
-**— Wala Eddine Ghazouani**
+<img src="assets/capabilities.svg" alt="AI capability map" width="100%"/>
 
 </div>
-
-**Selected back for a second year at Wevioo.** A digital-transformation consultancy operating in 30+ countries brought me back after my first internship and handed me a harder brief — going from a solo full-stack delivery to owning a production multimodal AI system. Being re-invited is the part I'd point to: the first internship was an audition, the second was a decision.
-
-Alongside that: **project lead** of a six-person multi-agent platform delivered with industry partner **VALUE**, two fine-tuned speech models published on **Hugging Face**, and freelance AI work on **Upwork** building **agentic systems and workflow automation** for international clients — scoping through deployment and handover.
 
 ### AI capabilities I've worked in
 
@@ -196,14 +201,14 @@ Alongside that: **project lead** of a six-person multi-agent platform delivered 
 
 ## `>` featured work
 
-### 🧠 [Solace](https://github.com/GhazouaniWala/solace) — real-time multimodal AI coach
+### 🧠 [Solace](https://github.com/GhwazouaniWala/solace) — real-time multimodal AI coach
 
 > Two emotion classifiers run on you *concurrently* — facial expression (EfficientNet-B0, ONNX) and vocal tone (fine-tuned wav2vec2-XLSR-53) — and the **disagreement between channels is surfaced, not averaged away**, because a user whose wording reads `neutral` while their voice reads `fearful` is the single most useful thing the system can notice. Answers stream back over full-duplex WebSocket, grounded in RAG across **603 clinical documents** and cited by named technique. Follows your language per turn — switch mid-session and the next reply comes back in the new one, voice included.
 
 <table>
 <tr>
-<td width="50%"><img src="https://raw.githubusercontent.com/GhazouaniWala/solace/main/docs/screenshots/voice-mode.png" alt="Voice mode"/><br/><sub><b>Voice mode</b> — orb driven by live FFT of the audio stream</sub></td>
-<td width="50%"><img src="https://raw.githubusercontent.com/GhazouaniWala/solace/main/docs/screenshots/report.png" alt="Session report"/><br/><sub><b>Session report</b> — every metric labelled <code>Measured</code> vs <code>Model estimate</code></sub></td>
+<td width="50%"><img src="assets/solace-voice-mode.png" alt="Voice mode"/><br/><sub><b>Voice mode</b> — orb driven by live FFT of the audio stream</sub></td>
+<td width="50%"><img src="assets/solace-report.png" alt="Session report"/><br/><sub><b>Session report</b> — every metric labelled <code>Measured</code> vs <code>Model estimate</code></sub></td>
 </tr>
 </table>
 
@@ -211,14 +216,14 @@ Alongside that: **project lead** of a six-person multi-agent platform delivered 
 
 ---
 
-### 📈 [FX AlphaLab](https://github.com/GhazouaniWala/fx-alphalabs) — multi-agent financial intelligence
+### 📈 [FX AlphaLab](https://github.com/GhwazouaniWala/fx-alphalabs) — multi-agent financial intelligence
 
 > **Project lead, 6 engineers, 5 months**, delivered with industry partner VALUE. Technical, macro and sentiment agents analyse the market independently, then pass through an orchestrator and a **conviction gate that exists specifically to suppress signals the agents disagree on**. Unified feature matrix of **204k+ rows spanning 2015–2025**. I owned the macro agent end to end — ingestion, feature engineering, regime detection, training, orchestration — and set up the MLOps layer.
 
 <table>
 <tr>
-<td width="50%"><img src="https://raw.githubusercontent.com/GhazouaniWala/fx-alphalabs/main/screenshots/signals.jpg" alt="Signal analysis"/><br/><sub><b>Signals</b> — per-analyst reasoning, conviction, risk parameters</sub></td>
-<td width="50%"><img src="https://raw.githubusercontent.com/GhazouaniWala/fx-alphalabs/main/screenshots/performance.jpg" alt="Performance dashboard"/><br/><sub><b>Backtesting</b> — win rate, profit factor, drawdown, Sharpe</sub></td>
+<td width="50%"><img src="assets/fx-alphalabs-signals.jpg" alt="Signal analysis"/><br/><sub><b>Signals</b> — per-analyst reasoning, conviction, risk parameters</sub></td>
+<td width="50%"><img src="assets/fx-alphalabs-performance.jpg" alt="Performance dashboard"/><br/><sub><b>Backtesting</b> — win rate, profit factor, drawdown, Sharpe</sub></td>
 </tr>
 </table>
 
@@ -226,14 +231,14 @@ Alongside that: **project lead** of a six-person multi-agent platform delivered 
 
 ---
 
-### 🔎 [Critiq](https://github.com/GhazouaniWala/critiq) — agentic UX & conversion audit
+### 🔎 [Critiq](https://github.com/GhwazouaniWala/critiq) — agentic UX & conversion audit
 
 > A **LangGraph `StateGraph`** fans specialist agents out with `Send()` and a custom state reducer. Every dimension sits behind a confidence gate with a deterministic heuristic fallback, so **the report always ships** with per-dimension honesty about which score is which. Weights adapt to site type — a trust badge matters more on an ecommerce checkout than a portfolio. Hybrid Playwright + Firecrawl scraping runs under one `asyncio.gather`, so wall time is `max()`, not the sum.
 
 <table>
 <tr>
-<td width="50%"><img src="https://raw.githubusercontent.com/GhazouaniWala/critiq/main/docs/screenshots/report-radar-dark.png" alt="Dimension radar"/><br/><sub><b>14-dimension radar</b> — real run against stripe.com, 88/100</sub></td>
-<td width="50%"><img src="https://raw.githubusercontent.com/GhazouaniWala/critiq/main/docs/screenshots/report-top-fixes-dark.png" alt="Top fixes"/><br/><sub><b>Top fixes</b> — ranked by weight × deficit, each with DOM evidence</sub></td>
+<td width="50%"><img src="assets/critiq-report-radar-dark.png" alt="Dimension radar"/><br/><sub><b>14-dimension radar</b> — real run against stripe.com, 88/100</sub></td>
+<td width="50%"><img src="assets/critiq-report-top-fixes-dark.png" alt="Top fixes"/><br/><sub><b>Top fixes</b> — ranked by weight × deficit, each with DOM evidence</sub></td>
 </tr>
 </table>
 
@@ -245,7 +250,7 @@ Alongside that: **project lead** of a six-person multi-agent platform delivered 
 <tr>
 <td width="50%" valign="top">
 
-### 🛒 [NeuraShop](https://github.com/GhazouaniWala/neurashop)
+### 🛒 [NeuraShop](https://github.com/GhwazouaniWala/neurashop)
 **Accessible AI marketplace**
 
 Six deep-learning modules fire at the moment of upload so no seller fills in a form: auto-categorisation (**97.4% F1**, 14 classes — my module), WCAG-validated alt-text via BLIP so screen-reader users aren't locked out, a photo-quality gate with CNN enhancer fallback, aspect-based review sentiment, visual recommendations, and a RAG shopping assistant.
@@ -255,7 +260,7 @@ Six deep-learning modules fire at the moment of upload so no seller fills in a f
 </td>
 <td width="50%" valign="top">
 
-### 📄 [Wathika](https://github.com/GhazouaniWala/wathika-ocr)
+### 📄 [Wathika](https://github.com/GhwazouaniWala/wathika-ocr)
 **Offline Arabic document intelligence**
 
 Handwritten Tunisian legal forms → structured, searchable client records, **entirely offline** — privileged client data under Tunisia's INPDP regime cannot go to a cloud OCR API. Template matching locates each field; per-field recognisers handle handwritten Arabic, numerals, checkboxes, signatures. Human corrections are retained as labelled training data.
@@ -267,7 +272,7 @@ Handwritten Tunisian legal forms → structured, searchable client records, **en
 </table>
 
 <div align="center">
-<a href="https://github.com/GhazouaniWala?tab=repositories"><img src="https://img.shields.io/badge/→_browse_all_repositories-38BDF8?style=for-the-badge"/></a>
+<a href="https://github.com/GhwazouaniWala?tab=repositories"><img src="https://img.shields.io/badge/→_browse_all_repositories-38BDF8?style=for-the-badge"/></a>
 </div>
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0A192F,50:2563EB,100:38BDF8&height=3&section=header"/>
@@ -467,28 +472,23 @@ Currently studying, not yet shipped — listed separately from my project work o
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0A192F,50:2563EB,100:38BDF8&height=3&section=header"/>
 
-## `>` github
+## `>` how I build
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=GhazouaniWala&show_icons=true&hide_border=true&bg_color=0A192F&title_color=38BDF8&text_color=94A3B8&icon_color=2563EB&ring_color=38BDF8" height="165"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=GhazouaniWala&layout=compact&hide_border=true&bg_color=0A192F&title_color=38BDF8&text_color=94A3B8" height="165"/>
+<img src="assets/pipeline.svg" alt="How I build — understand, model, evaluate, serve, monitor, ship" width="100%"/>
 
+</div>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0A192F,50:2563EB,100:38BDF8&height=3&section=header"/>
+
+## `>` toolbelt
+
+<div align="center">
+
+<img src="https://skillicons.dev/icons?i=python,pytorch,tensorflow,sklearn,opencv,fastapi,flask,docker,linux,git&theme=dark&perline=10"/>
 <br/>
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=GhazouaniWala&hide_border=true&background=0A192F&stroke=1E3A8A&ring=38BDF8&fire=2563EB&currStreakLabel=38BDF8&sideLabels=94A3B8&dates=94A3B8&currStreakNum=FFFFFF&sideNums=FFFFFF" height="165"/>
-
-<br/>
-
-<img src="https://github-profile-trophy.vercel.app/?username=GhazouaniWala&theme=algolia&no-frame=true&no-bg=true&column=7&margin-w=8"/>
-
-<br/>
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=GhazouaniWala&bg_color=0A192F&color=94A3B8&line=38BDF8&point=2563EB&area=true&hide_border=true"/>
-
-<br/><br/>
-
-<img src="https://skillicons.dev/icons?i=python,pytorch,tensorflow,sklearn,fastapi,flask,docker,linux,git,github,react,ts,tailwind,vite,postgres,mysql,opencv,anaconda&theme=dark&perline=9"/>
+<img src="https://skillicons.dev/icons?i=react,ts,tailwind,vite,postgres,mysql,sqlite,github,vscode,anaconda&theme=dark&perline=10"/>
 
 </div>
 
@@ -496,7 +496,7 @@ Currently studying, not yet shipped — listed separately from my project work o
 
 <div align="center">
 
-## `>` let's build something
+## `>` contact me about an internship
 
 <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=18&duration=3500&pause=1200&color=22D3A6&center=true&vCenter=true&width=740&lines=Seeking+a+6-month+final-year+AI+internship+%E2%80%94+Jan+to+Jun+2027;LLMs+%C2%B7+RAG+%C2%B7+Agents+%C2%B7+Vision+%C2%B7+Multimodal+%C2%B7+MLOps;Open+to+relocation+%E2%80%94+Europe+%7C+Canada" alt="CTA"/>
 
